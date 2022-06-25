@@ -1,4 +1,4 @@
-import { useEffect, usestate } from 'react';
+import { useEffect,usestate } from 'react';
 import './App.css';
 
 
@@ -13,13 +13,13 @@ function App() {
   const getCurrentLocation = () => {
     console.log('getCurrentLocation');
   }
-  useEffect(() => {
+  useEffect(()=>{
     getCurrentLocation()
-  }, [])
+  },[])
 
   return (
     <div>
-
+      
     </div>
   );
 }
